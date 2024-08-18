@@ -1,7 +1,9 @@
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
-
+deploy:
+  type: git
+  repo: https://github.com/Virtualescola66/Virtualescola66.github.io.git
 # Site
 title: Hexo
 subtitle: ''
