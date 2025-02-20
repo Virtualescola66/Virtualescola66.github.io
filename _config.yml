@@ -16,7 +16,7 @@ authors:
   MC:
     name: MC
     display_name: MC
-    gravatar:
+    gravatar: 'assets/images/favicon.jpg'
     email: 
     web: 
     twitter: 
