@@ -3,7 +3,7 @@ layout: post
 title:  "Un essai à deux balles"
 author: MC
 categories: [ Jekyll, tutorial ]
-image: assets/images/5.jpg
+image: assets/images/1.jpg
 featured: true
 hidden: true
 ---
