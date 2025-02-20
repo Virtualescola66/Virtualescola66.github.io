@@ -1,0 +1,21 @@
+---
+layout: page
+title: A propos
+permalink: /AEFE
+comments: true
+---
+
+<div class="row justify-content-between">
+<div class="col-md-8 pr-5">
+
+<p>C'est la page destinée aux nouveautées AEFE</p>
+
+<h4>Agence pour l'Enseignment Français à l'Etranger</h4>
+
+
+<p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Mediumish <i class="fab fa-github"></i></a>.</p>
+
+
+</div>
+</div>
+</div>
