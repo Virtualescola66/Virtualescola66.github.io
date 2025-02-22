@@ -99,16 +99,18 @@ A second major clue was provided by hospital orderly Travis (Stephen Graham): <s
 <span class="spoiler">My hidden paragraph here.</span>
 ```
 
-> Director Roland Suso Richter's enigmatic psychological thriller (direct to video/DVD) was based upon screenwriter Michael Cooney's own play "Point of Death" - a title that gave away the film's entire plot twist premise.
+> Ecrire un paragraphe spécifique et mettre en lumière un passage.
 
----
+````---
 layout: post
-title:  "Inception Movie"
-author: john
-categories: [ Jekyll, tutorial ]
-tags: [red, yellow]
+title:  "Utilisation d'une typographie spécifique dans les fichiers md"
+author: MC
+categories: [ Tutoriel, EduNum ]
+tags: [md, tuto]
 image: assets/images/1.jpg
-description: "My review of Inception movie. Actors, directing and more."
-rating: 4.5
+description: "Comment écrire des fichiers md ? "
+featured: true
+hidden: true
+rating: 4.9
 ---
 ```
