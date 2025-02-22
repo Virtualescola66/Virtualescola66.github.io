@@ -3,7 +3,7 @@ layout: post
 title:  "Utilisation d'une typographie spécifique dans les fichiers md"
 author: MC
 categories: [ Tutoriel, EduNum ]
-tags: [red, yellow]
+tags: [md, tuto]
 image: assets/images/1.jpg
 description: "Comment écrire des fichiers md ? "
 featured: true
@@ -12,15 +12,18 @@ rating: 4.9
 ---
 `Ecrire dans une couleur spécifique <PATH>` c'est juste écrire entre "`" les mots qu'on souhaite faire ressortir.
 
-- pour créer un bullets il suffit d'utiliser le symbole `-` . If the existing directory isn't empty, you can pass the --force option with jekyll new . --force.
-Education must also train one for quick, **resolute and effective thinking**.
-Review products, books, movies, restaurant and anything you like on your Jekyll blog with Mediumish! JSON-LD ready for review property.
-As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example:
-
-+ ~~strike through~~
+- pour créer un `bullets` il suffit d'utiliser le symbole `-` ou `+`. Et donc pour faire un tiret devant un mot --tiret il suffit de placer deux signes moins `--` 
+Si l'on veut placer en **gras une partie de phrase** `**`
++ ~~barrer une suite de mots~~ avec les caractères `~~`
+en utilisant "#" 1, 2, 3, 4, 5 pour titre i
+# titre 1
+## titre 2
+### titre 3
+#### titre 4
+##### titre 5
 + ==highlight==
 + \*escaped characters\*
-lines using triple back ticks:
+Mettre dans un tableau de programmation avec les apostrophes arrières "```"
 
 ```
 .my-link {
@@ -84,12 +87,9 @@ puts markdown.to_html
 printf("Hello World");
 ```
 <p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+
 ![walking]({{ site.baseurl }}/assets/images/8.jpg)
-#### How to use?
 
-It's actually really simple! Add the rating in your YAML front matter. It also supports halfs:
-
-```html
 
 A second major clue was provided by hospital orderly Travis (Stephen Graham): <span class="spoiler">Everybody dies. No mystery there. But why and how everyone dies. Now, there's a mystery worth solving. Probably the biggest mystery there is.</span>
 
