@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Inception Movie"
+title:  "Utilisation d'une typographie spécifique dans les fichiers md"
 author: MC
 categories: [ Tutoriel, EduNum ]
 tags: [red, yellow]
