@@ -10,9 +10,9 @@ featured: true
 hidden: true
 rating: 4.9
 ---
-`Ecrire dans une couleur spécifique <PATH>` c'est juste écrire entre "`" les mots qu'on souhaite ressortir.
+`Ecrire dans une couleur spécifique <PATH>` c'est juste écrire entre "`" les mots qu'on souhaite faire ressortir.
 
-- To install the Jekyll site into the directory you're currently in, run `jekyll new` . If the existing directory isn't empty, you can pass the --force option with jekyll new . --force.
+- pour créer un bullets il suffit d'utiliser le symbole `-` . If the existing directory isn't empty, you can pass the --force option with jekyll new . --force.
 Education must also train one for quick, **resolute and effective thinking**.
 Review products, books, movies, restaurant and anything you like on your Jekyll blog with Mediumish! JSON-LD ready for review property.
 As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example:
