@@ -2,15 +2,15 @@
 layout: post
 title:  "Inception Movie"
 author: MC
-categories: [ AEFE, EduNum ]
+categories: [ Tutoriel, EduNum ]
 tags: [red, yellow]
 image: assets/images/1.jpg
-description: "My review of Inception movie. Acting, plot and something else in this short description."
+description: "Comment écrire des fichiers md ? "
 featured: true
 hidden: true
-rating: 4.5
+rating: 4.9
 ---
-`jekyll new <PATH>` installs a new Jekyll site at the path specified (relative to current directory). In this case, Jekyll will be installed in a directory called `myblog`. Here are some additional details:
+`Ecrire dans une couleur spécifique <PATH>` c'est juste écrire entre "`" les mots qu'on souhaite ressortir.
 
 - To install the Jekyll site into the directory you're currently in, run `jekyll new` . If the existing directory isn't empty, you can pass the --force option with jekyll new . --force.
 Education must also train one for quick, **resolute and effective thinking**.
