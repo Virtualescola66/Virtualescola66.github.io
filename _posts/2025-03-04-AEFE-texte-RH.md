@@ -9,3 +9,6 @@ description: "Les textes à connaitres"
 featured: true
 hidden: true
 rating: 4.9
+---
+##Comité social d'établissement public##
+https://www.legifrance.gouv.fr/loda/id/JORFTEXT000046326609/
