@@ -12,3 +12,5 @@ rating: 4.9
 ---
 ##Comité social d'établissement public##
 https://www.legifrance.gouv.fr/loda/id/JORFTEXT000046326609/
+Les listes déposées par les organisations syndicales candidates comprennent un nombre de femmes et d’hommes correspondant à leurs parts respectives au sein du comité social d’administration.
+Les parts de femmes et d’hommes composant l’effectif représenté au comité social d’établissement public de l’Agence pour l’enseignement français à l’étranger pris en compte au 1er janvier 2022 sont fixées comme suit : 11 931 agents représentés, dont 7 355 femmes soit 61,65 % et 4 576 hommes soit 38,35 %.
