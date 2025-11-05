@@ -1,61 +1,65 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>NumeriGirls 2026</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>NumeriGirls 2026</h1>
+    <nav>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#programme">Programme</a></li>
+        <li><a href="#intervenants">Intervenantes</a></li>
+        <li><a href="#galerie">Galerie</a></li>
+        <li><a href="#inscription">Inscription</a></li>
+      </ul>
+    </nav>
+  </header>
 
-{% if page.url == "/" %}
+  <section id="accueil">
+    <h2>Bienvenue à NumeriGirls</h2>
+    <p>Une journée dédiée à la découverte des métiers du numérique pour les lycéennes.</p>
+  </section>
 
-<!-- Featured
-================================================== -->
-<section class="featured-posts">
-    <div class="section-title">
-        <h2><span>Les derniers articles</span></h2>
-    </div>
-    <div class="row">
+  <section id="programme">
+    <h2>Programme</h2>
+    <p>📅 Date : 12 mars 2026<br>📍 Lieu : Lycée Aristide Maillol, Perpignan</p>
+    <ul>
+      <li>9h00 : Accueil des participantes</li>
+      <li>10h00 : Ateliers et conférences</li>
+      <li>12h30 : Pause déjeuner</li>
+      <li>14h00 : Parcours personnalisé</li>
+      <li>16h00 : Clôture et témoignages</li>
+    </ul>
+  </section>
 
-    {% for post in site.posts %}
+  <section id="intervenants">
+    <h2>Intervenantes</h2>
+    <ul>
+      <li>Michèle WITHIER — THALES</li>
+      <li>Nafissata JÉGOU — KATANE</li>
+      <li>Julie BARRAU — INRIA</li>
+      <li>Anne-Sophie TRAVERSA — ORANGE</li>
+    </ul>
+  </section>
 
-        {% if post.featured == true %}
+  <section id="galerie">
+    <h2>Galerie</h2>
+    <img src="images/photo1.jpg" alt="Atelier 2025">
+    <img src="images/photo2.jpg" alt="Conférence 2025">
+  </section>
 
-            {% include featuredbox.html %}
+  <section id="inscription">
+    <h2>Inscription</h2>
+    <p>Le formulaire d’inscription sera disponible prochainement.</p>
+  </section>
 
-        {% endif %}
-
-    {% endfor %}
-
-    </div>
-</section>
-
-{% endif %}
-
-<!-- Posts Index
-================================================== -->
-<section class="recent-posts">
-
-    <div class="section-title">
-
-        <h2><span>Les articles</span></h2>
-
-    </div>
-
-    <div class="row listrecent">
-
-        {% for post in paginator.posts %}
-
-        {% include postbox.html %}
-
-        {% endfor %}
-
-    </div>
-
-</section>
-
-<!-- Pagination
-================================================== -->
-<div class="bottompagination">
-<div class="pointerup"><i class="fa fa-caret-up"></i></div>
-<span class="navigation" role="navigation">
-    {% include pagination.html %}
-</span>
-</div>
-
+  <footer>
+    <p>© NumeriGirls — Lycée Aristide Maillol — 2024‑2026</p>
+  </footer>
+</body>
+</html>
