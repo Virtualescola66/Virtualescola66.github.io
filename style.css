@@ -62,9 +62,14 @@ footer {
 .title-block {
   overflow: hidden;
 }
-
+.banniere img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+}
 .logo {
-  width: 80px;
+  width: 160px;
   float: left;
   margin-right: 20px;
 }
