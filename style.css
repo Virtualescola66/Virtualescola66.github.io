@@ -10,7 +10,7 @@ header {
   background-color: #e91e63;
   color: white;
   padding: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 nav ul {
@@ -69,6 +69,7 @@ footer {
 }
 .title-block {
   overflow: hidden;
+  margin-left: 160px
 }
 .banniere img {
   width: 100%;
