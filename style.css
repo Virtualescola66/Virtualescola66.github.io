@@ -33,6 +33,12 @@ nav a {
   font-weight: bold;
   padding: 10px;
   display: block;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #FFA726; /* orange chaud */
+  color: #9575CD; /* texte blanc */
 }
 
 section {
