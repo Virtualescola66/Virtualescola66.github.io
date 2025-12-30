@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <link rel="icon" href="favicon.png" type="image/png">
@@ -13,8 +12,7 @@
     <div class="title-block"></div>
     <h1>Pour avancer, analyser, réfléchir, proposer</h1>
     <h2 class="slogan">Explorer, comprendre, créer</h2>
-    </div>
-    </header>
+        </header>
     </body>
     <header>
     <nav>
@@ -45,10 +43,9 @@
 
   <section id="analyser">
     <h2>Analyser</h2>
-    <ul>
-      <li>Quelques anqlyses</li>
-
-    </ul>
+    <div id="article-md">
+        <p>Chargement de l'article</p>
+    </div>  
   </section>
 
   <section id="proposer">
@@ -65,5 +62,19 @@
   <footer>
     <p>© MC Production </p>
   </footer>
-</body>
-</html>
+<!-- 🔽 Librairie Markdown -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<!-- 🔽 Script de chargement Markdown -->
+<script>
+  fetch("https://raw.githubusercontent.com/UTILISATEUR/REPO/main/article.md")
+    .then(response => response.text())
+    .then(markdown => {
+      document.getElementById("article-md").innerHTML =
+        marked.parse(markdown);
+    })
+    .catch(error => {
+      document.getElementById("article-md").innerHTML =
+        "<p>Impossible de charger l’article.</p>";
+    });
+</script>
