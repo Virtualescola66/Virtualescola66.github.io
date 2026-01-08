@@ -1,0 +1,2 @@
+Les professeurs de 6ème de la zone (Institut Régional de Formation ZESE - AEFE ) expérimentent et s’approprient le nouveau programme de français pour la classe de 6ème. Plaisir de les accompagner dans cette nouvelle phase après trois rendez-vous de formation en distanciel. Retour sur expériences et analyses de pratiques en fin d’année.
+![6lettres.jpg](../../../_resources/6lettres.jpg)
