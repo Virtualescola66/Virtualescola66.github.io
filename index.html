@@ -1,67 +1,54 @@
 <!DOCTYPE html>
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
-   <title>Pour analyser, réfléchir, proposer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pour analyser, réfléchir, proposer</title>
+  <link rel="icon" href="image/favicon.png" type="image/png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="header-placeholder"></div>
-        <section id="accueil">
-            <h2>Pour analyser, réfléchir et proposer</h2>
-            <img src="image/Stylo.jpg"
-                 style="border-radius: 100px 100px 150px 150px;
-           width: 200px;
-           height: auto;"
-                 alt="Des stylos en forme de goutte inversée" />
+  <div id="header-placeholder"></div>
 
-            <p>Un site dédié à des réflexions sur l'école</p>
-        </section>
+  <main>
+    <section id="accueil">
+      <h2>Pour analyser, réfléchir et proposer</h2>
+      <img
+        src="image/Stylo.jpg"
+        class="hero-image"
+        alt="Des stylos en forme de goutte inversée"
+      >
+      <p>Un site dédié à des réflexions sur l'école.</p>
+      <button id="theme-toggle" type="button" aria-label="Activer le mode sombre">🌙 Mode sombre</button>
+    </section>
 
-        <section id="avancer">
-            <h2>Avancer</h2>
-            <p>📅 Date : aujourdhui<br>📍 Lieu : Mon cerveau</p>
-            <ul>
-                <li>je ne sais pas</li>
-                <li>je ne sais pas</li>
-                <li>je ne sais pas</li>
-            </ul>
-        </section>
+    <section id="avancer">
+      <h2>Avancer</h2>
+      <p>📅 Date : <span id="current-date">Chargement…</span><br>📍 Lieu : Mon cerveau</p>
+      <ul id="next-steps"></ul>
+    </section>
 
-        <section id="analyser">
-            <h2>Analyser</h2>
-            <div id="article-md">
-                <p>Chargement de l'article</p>
-            </div>
-        </section>
+    <section id="analyser">
+      <h2>Analyser</h2>
+      <label for="article-select">Choisir un article :</label>
+      <select id="article-select"></select>
+      <div id="article-md" aria-live="polite">
+        <p>Chargement de l'article…</p>
+      </div>
+    </section>
 
-        <section id="proposer">
-            <h2>Proposer</h2>
-            <img src="image/logo.png" alt="Logo">
-            <img src="image/logo_colour.png" alt="Logo couleur">
-        </section>
+    <section id="proposer">
+      <h2>Proposer</h2>
+      <img src="image/logo.png" alt="Logo noir et blanc">
+      <img src="image/logo_colour.png" alt="Logo couleur">
+    </section>
+  </main>
 
-        <section id="about">
-            <h2>A propos</h2>
-            <p>A vous de découvrir</p>
-        </section>
+  <footer>
+    <p>© MC Production</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
-        <footer>
-            <p>© MC Production </p>
-        </footer>
-        <script src="js/script.js"></script>
-        <!-- 🔽 Librairie Markdown -->
-        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-
-        <!-- 🔽 Script de chargement Markdown -->
-        <script>
-            fetch("https://raw.githubusercontent.com/Virtualescola66/Virtualescola66.github.io/refs/heads/site/articles/article.md.md")
-                .then(response => response.text())
-                .then(markdown => {
-                    document.getElementById("article-md").innerHTML =
-                        marked.parse(markdown);
-                })
-                .catch(error => {
-                    document.getElementById("article-md").innerHTML =
-                        "<p>Impossible de charger l’article.</p>";
-                });
-        </script>
+</html>
